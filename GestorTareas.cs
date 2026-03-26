@@ -6,6 +6,9 @@ public class GestorTareas{
         tareas = new List<Tarea>();
         tareasDispo = new List<Tarea>();
     }
+    public Dictionary<int,Tarea> gGetDicTareas(){
+        return dicTareas;
+    }
 
     public void AgregarNuevasTareas()
     {
@@ -16,14 +19,22 @@ public class GestorTareas{
         
     }
         public Tarea BuscarTraea( int IDbuscar){
-           
-        return ;
+        if (edades.ContainsKey(IDbuscar))
+        {
+            dicTareas[IDbuscar];
+            return dicTareas[IDbuscar];
+        }
+        else {
+            return null;
+        }
+       
     }
      public void MarcarTareaComoCompleta(){
 
 
     }
     public void MostrarTodasTareas(){
+        
 
     }
     public void MostrarTareasPendientes(){

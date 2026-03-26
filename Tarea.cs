@@ -9,5 +9,14 @@ public class Tarea
         this.descripcion = descripcion;
         this.completada = completada;
     }
+    public int getID(){
+        return ID;
+    }
+    public string getDesc(){
+        return descripcion;
+    }
+    public bool getcCompletada(){
+        return completada;
+    }
 
 }

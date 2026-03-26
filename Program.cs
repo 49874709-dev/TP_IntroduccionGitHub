@@ -2,6 +2,9 @@
 {
     static void Main(string[] args)
     {
+        GestorTareas gestorTareas = new GestorTareas();
+        Dictionary<int, Tarea> dicTareas2;
+        dicTareas2 = gestorTareas.gGetDicTareas();
        int menu;
         do
         {
@@ -17,8 +20,9 @@
             break;
 
             case 3: 
-             
-            break;
+             foreach (Tarea item in dicTareas2){
+             console.WriteLine("tarea: "+item.getID()+" "+item.getDesc()+" "+" "+item.getcCompletada()+" esta completa");}
+             break;
 
             case 4:
                 
