@@ -9,7 +9,7 @@
         switch(menu) 
         {
             case 1: 
-                
+                GestorTareas.AgregarTarea(ingresarNumero("Ingrese el Id"),ingresarTexto("Ingrese la descripcion"),ingresarTexto("Ingrese si esta completa o no"));
             break;
 
             case 2: 

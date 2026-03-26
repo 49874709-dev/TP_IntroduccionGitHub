@@ -1,30 +1,13 @@
 public class Tarea
 {
-    private int id;
-    private string descripcion; 
+    private int ID;
+    private string descripcion;  
     private bool completada;
 
-    public Tarea(int id, string descripcion, bool completada){
-        this.id = id;
+    public Tarea(int ID, string descripcion, bool completada){
+        this.ID = ID;
         this.descripcion = descripcion;
         this.completada = completada;
     }
 
-    public void AgregarNuevasTareas(){
-
-    }
-
-    public Tarea BuscarTraea(){
-        return ;
-
-    }
-    public void MarcarTareaComoCompleta(){
-
-    }
-    public void MostrarTodasTareas(){
-
-    }
-    public void MostrarTareasPendientes(){
-
-    }
 }
